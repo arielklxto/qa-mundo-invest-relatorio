@@ -116,8 +116,6 @@ Você pode acessar o relatório completo aqui:
 
 👉 **https://docs.google.com/document/d/1Aq14g1kpaJe-sTV5AYe8IJw3Qf6sl2WLyYyQFfueVjc/edit?usp=sharing**
 
----
-
 ## Vídeo explicativo do Relatório
 
 Você pode acessar o vídeo de apresentação do relatório completo no Loom aqui:
