@@ -1,85 +1,139 @@
 
-# Case de Análise e Testes – Mundo Invest  
-**Relatório documental feito para processo seletivo — QA / Testes Mobile**
+# Relatório de QA — Análise Completa do App Mundo Invest
+
+Este repositório apresenta um relatório técnico completo de QA realizado sobre o aplicativo **Mundo Invest**, desenvolvido pela empresa Retta.  
+O documento foi produzido como parte de um processo seletivo para uma vaga de estágio em QA — mas a profundidade da análise e o rigor metodológico refletem um nível acima do esperado para posições júnior.
 
 ---
 
-## Sobre o case
+## Objetivo da Análise
 
-Este repositório contém minha análise completa do aplicativo **Mundo Invest**, desenvolvida inicialmente como parte de um processo seletivo para a empresa **Retta** — vaga de **Estágio em QA**.
+O propósito deste relatório foi:
 
-Mesmo sendo um teste técnico, o trabalho se tornou um case que representa meu estilo de análise:  
-**detalhista, metódico, investigativo e focado no comportamento real do usuário.**
+- Avaliar a **qualidade geral do aplicativo**, considerando UX, UI, fluxo de navegação, comportamento funcional e aspectos visuais.
+- Identificar inconsistências, falhas e riscos que impactam a experiência do usuário.
+- Testar comportamentos em diferentes dispositivos e sistemas operacionais.
+- Levantar possíveis vulnerabilidades relacionadas a **segurança e autenticação**.
+- Produzir um documento claro, acionável e tecnicamente fundamentado.
 
-Eu gostei tanto desse relatório que decidi transformá-lo em um material público do meu portfólio.
-
----
-
-## Objetivos da análise
-
-- Avaliar front-end, back-end e fluxos de cadastro  
-- Testar comportamento em 3 dispositivos diferentes (Android e iOS)  
-- Registrar falhas, inconsistências visuais e comportamentais  
-- Verificar rigor de autenticação, criação de conta e segurança  
-- Comparar experiência entre modelos, sistemas e telas  
-- Identificar risco de login simultâneo e outras vulnerabilidades  
-- Propor melhorias fundamentadas em:
-  - UX  
-  - UI  
-  - Responsividade  
-  - Usabilidade  
-  - Segurança  
-  - Padrões técnicos (WCAG, Fitts, hierarquia visual)
+O foco da análise foi **criterioso, prático e baseado em evidências**.
 
 ---
 
-## ⭐ Destaques do relatório
+## Dispositivos Utilizados nos Testes
 
-### ✔ Avaliação completa do fluxo de cadastro  
-Validação fraca de senha, falta de rigor no nome, inconsistências de SMS e ausência de mensagens de orientação.
+A análise contemplou comportamento multi-dispositivo, incluindo:
 
-### ✔ Análise detalhada de UX/UI com base em heurísticas  
-Aplicação de princípios como:
+- **Samsung A03 (Android)**
+- **Poco X5 (Android)**
+- **iPad (iOS)**
 
-- Hierarquia visual (F/Z)  
-- WCAG AA  
-- Fitts’s Law  
-- Consistência visual e microinterações  
+Essa abordagem permitiu identificar diferenças críticas entre plataformas, como:
 
-### ✔ Testes multi-device e multi-SO  
-**3 devices:** Samsung A03 Core, Xiaomi Poco C75 e iPad 6ª geração.  
-Comparação profunda de responsividade e comportamento.
-
-### ✔ Vulnerabilidade séria: login simultâneo  
-Dois dispositivos acessando a mesma conta ao mesmo tempo sem bloqueio ou invalidação de token.
-
-### ✔ Investigação ativa  
-Descoberta de comportamento inesperado ligado ao bloqueio de notificações.
+- quebras de layout  
+- inconsistências de navegação  
+- problemas de responsividade  
+- falhas específicas em validação e fluxo  
 
 ---
 
+## Escopo da Análise
+
+O relatório investiga:
+
+### ✔ Fluxo de cadastro completo  
+- Comportamentos inesperados  
+- Falha em validações básicas  
+- Risco de abandono por confusão ou frustração  
+
+### ✔ UX e UI (experiência e interface)  
+- Hierarquia visual  
+- Contraste e acessibilidade (WCAG)  
+- Microinterações e feedback ao usuário  
+- Consistência de design entre telas e dispositivos  
+
+### ✔ Segurança  
+- Falhas de autenticação  
+- Risco de sessões simultâneas  
+- Possibilidade de token theft  
+- Validações fracas de senha e identidade  
+- Vulnerabilidade a ataques de replay  
+
+### ✔ Comportamento técnico  
+- Layout quebrado  
+- Elementos cortados  
+- Problemas de navegação  
+- Botões fora do fluxo natural  
 
 ---
 
-## Principais habilidades demonstradas
+## 📂 Conteúdo do Repositório
 
-- Testes manuais estruturados  
-- Investigação e raciocínio crítico  
-- Documentação técnica clara  
-- Noções de segurança (tokens, sessão, vulnerabilidades)  
-- UX/UI aplicada na prática  
-- Comparação entre OS e devices  
-- Análise voltada à experiência do usuário real  
+- **Relatorio_Mundo_Invest.pdf**  
+  Documento completo contendo toda a análise, devidamente estruturada e ilustrada com prints de tela e justificativas técnicas.
 
 ---
 
-## Conclusão
+## Metodologia
 
-Esse case representa minha forma de enxergar **qualidade de software**:  
-não como “procura de bugs”, mas como **um olhar completo sobre produto, usuário e segurança**.
+A análise foi conduzida seguindo práticas profissionais de QA:
 
-Foi um dos trabalhos que mais gostei de fazer, e faz parte do meu portfólio porque demonstra o tipo de profissional que eu sou e o tipo de cuidado que coloco em cada projeto.
+- Testes exploratórios guiados  
+- Comparação entre dispositivos  
+- Registro de comportamento visual e funcional  
+- Documentação com prints contextualizados  
+- Uso de referências técnicas como  
+  - **WCAG**  
+  - **Heurísticas de Nielsen (NN/g)**  
+  - **Lei de Fitts**  
+  - **Padrões de segurança Avast / OWASP / Token Management**  
 
-**Se quiser conversar sobre esse case, estou disponível!**
+Cada problema descrito aparece acompanhado de:
 
+1. **Contexto**  
+2. **Comportamento observado**  
+3. **Impacto real no usuário ou no produto**  
+4. **Referências quando aplicável**  
+5. **Sugestão** (somente quando relevante)
 
+---
+
+## Destaques Técnicos
+
+- Identificação de **falhas de segurança críticas**  
+- Análise profunda de **fluxos de cadastro e onboarding**  
+- Avaliação comparativa **Android x iOS**  
+- Observações claras, diretas e profissionais  
+- Estruturação madura e alinhada com relatórios de QA reais  
+- Escrita objetiva sem excesso de formalidade  
+- Prints sempre contextualizados e com propósito  
+
+---
+
+## Arquivo do Relatório
+
+Você pode acessar o relatório completo aqui:
+
+👉 **https://docs.google.com/document/d/1Aq14g1kpaJe-sTV5AYe8IJw3Qf6sl2WLyYyQFfueVjc/edit?tab=t.0#heading=h.z6ne0og04bp5**
+
+---
+
+## Sobre a Autora
+
+Relatório produzido por **Ariel Calixto**  
+Desenvolvedora Web / Estudante de Engenharia de Software  
+Apaixonada por tecnologia, qualidade, segurança, boas interfaces e análise criteriosa.
+
+---
+
+## Observação Final
+
+Este relatório demonstra não apenas capacidade técnica, mas também:
+
+- pensamento crítico  
+- cuidado com experiência de usuário  
+- visão multidisciplinar (UX + Dev + QA + Segurança)  
+- habilidade de comunicação clara  
+- atenção a detalhes que muitos profissionais deixam passar  
+
+Se você está avaliando este portfólio: obrigada pela visita!
