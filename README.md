@@ -114,7 +114,7 @@ Cada problema descrito aparece acompanhado de:
 
 Você pode acessar o relatório completo aqui:
 
-👉 **https://docs.google.com/document/d/1Aq14g1kpaJe-sTV5AYe8IJw3Qf6sl2WLyYyQFfueVjc/edit?tab=t.0#heading=h.z6ne0og04bp5**
+👉 **https://docs.google.com/document/d/1Aq14g1kpaJe-sTV5AYe8IJw3Qf6sl2WLyYyQFfueVjc/edit?usp=sharing**
 
 ---
 
