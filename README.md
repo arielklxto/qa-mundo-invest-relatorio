@@ -118,6 +118,14 @@ Você pode acessar o relatório completo aqui:
 
 ---
 
+## Vídeo explicativo do Relatório
+
+Você pode acessar o vídeo de apresentação do relatório completo no Loom aqui:
+
+👉 **https://www.loom.com/share/98e2c40f53ee49c6a211413097d8da51**
+
+---
+
 ## Sobre a Autora
 
 Relatório produzido por **Ariel Calixto**  
